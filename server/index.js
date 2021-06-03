@@ -11,7 +11,7 @@ app.use(cors())
 
 //query parameters: allow us to send data in our url: http://localhost:5000/?name=henry = req.query
 //params: allows us to identify a specific resource: http://localhost:5000/:id = req.params
-// we can testthe below request using this link in postman: http://localhost:5000/users/?name=henry
+// we can testthe below request using this link in postman: http://localhost:5000/users/?name=Dun
 app.get("/users", async(req,res) => {
   try {
     const {name} = req.query
