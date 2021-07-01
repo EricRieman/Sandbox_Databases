@@ -31,3 +31,5 @@ Encapsulated code, only share minimum. Every file in Node is a module.
 Run a module by navigating to the parent folder in terminal, then use command
 `node app.js`
 
+### Built in Modules
+There are many, review the [docs](https://nodejs.org/dist/latest-v16.x/docs/api/) 
