@@ -31,6 +31,18 @@ readFile('./content/first.txt', 'utf8', (err, res) => {
     return
   }
   console.log(res)
+
+  writeFile( 
+    './content/result-async.txt',
+    `Here is the result: ${first}, ${second}`,
+    (err, res) => {
+      if( err ){
+        console.log(err)
+        return
+      }
+  
+      console.log(res)
+    }
+  )
 })
 
-//1:24:00
